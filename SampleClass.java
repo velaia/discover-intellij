@@ -4,6 +4,7 @@ package de.velaia.intellij.discover;
  * Created by velaia on 12.06.16.
  *
  * I use this project to get to know the IntelliJ IDEA IDE key bindings and editor basics.
+ * I follow the 'IntelliJ IDEA 2016.1 Help/Discover IntelliJ IDEA' guide.
  *
  * @see <a href="http://jetbrains.com">JetBrains website</a>
  * @author velaia
