@@ -52,5 +52,12 @@ public class SampleClass {
     public void setSecondString(String secondString) {
         this.secondString = secondString;
     }
+
+    /**
+     * Place as many cursers as you want using Alt+Shift+Click
+     * Place as many cursers as you want using Alt+Shift+Click
+     * Place as many cursers as you want using Alt+Shift+Click
+     *  cursers as you want using Alt+Shift+ClickPlace as many cursers as you want using Alt+Shift+Click
+     */
 }
 
