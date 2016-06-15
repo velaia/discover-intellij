@@ -50,6 +50,7 @@ public class SampleClass {
             // pressing Ctrl+Shift+Space twice allows for chained code completion, e.g.
             String lines = anotherReader.readLine();
         } catch (Exception e) {
+            // don't do this except for learning editor shortcuts ... proper Exception handling!
             e.printStackTrace();
         }
     }
@@ -61,7 +62,12 @@ public class SampleClass {
 
     public static void main(String[] args) {
         SampleClass startsHere = new SampleClass();
-        startsHere.doSthToString("change this String");
+        /**
+         * Post fix completion: if I start typing 'startsHere.not' and select notnull, this will happen
+         */
+        if (startsHere != null) {
+            startsHere.doSthToString("change this String");
+        }
         startsHere.printlnMyString();
     }
 
